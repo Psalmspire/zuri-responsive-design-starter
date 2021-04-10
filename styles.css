@@ -365,6 +365,7 @@ div.footer h6 {
 
 @media screen and (max-width: 768px) {
     .nav-bar {
+        overflow: hidden;
         display: flex;
         justify-content: space-around;
         padding: 1rem;
@@ -377,15 +378,44 @@ div.footer h6 {
     .logo {
         font-size: 1.3rem;
     }
+    .nav-bar .nav-links {
+        display: none;
+    }
     ul.nav-links {
         flex-direction: column;
+        display: block;
+    }
+    .nav-bar a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
     }
     ul li {
         margin: 0;
         font-size: 1rem;
     }
-    ul li a {
+    .ul li a {
         display: block;
+    }
+    .nav-bar a.icon {
+        background: white;
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav-bar a.icon {
+        background: inherit;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav-bar a:hover {
+        background-color: #ddd;
+        color: black;
     }
     div.hero-content-btn a:hover {
         background: #13c2a5;
