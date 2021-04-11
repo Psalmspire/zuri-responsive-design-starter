@@ -381,7 +381,8 @@ div.footer h6 {
 @media screen and (max-width: 768px) {
     div.nav-bar {
         display: flex;
-        position: relative;
+        padding-bottom: 2.5rem;
+        /* position: relative;*/
     }
     .logo {
         font-size: 1.3rem;
@@ -406,9 +407,7 @@ div.footer h6 {
     ul li {
         margin: 0;
         font-size: 1rem;
-    }
-    .ul li a {
-        display: block;
+        padding: 0.5rem 0 0.5rem 0;
     }
     div.hero-content-btn a:hover {
         background: #13c2a5;
