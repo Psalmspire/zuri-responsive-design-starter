@@ -405,13 +405,14 @@ div.footer h6 {
     .ul li a {
         display: block;
     }
+    /*
     .nav-bar a.icon {
         background: white;
         display: none;
         position: absolute;
         right: 0;
         top: 0;
-    }
+    }*/
     .nav-bar a.icon {
         background: inherit;
         display: block;
