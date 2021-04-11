@@ -381,17 +381,18 @@ div.footer h6 {
 @media screen and (max-width: 768px) {
     div.nav-bar {
         display: flex;
-        flex-direction: column;
+        position: relative;
     }
     .logo {
         font-size: 1.3rem;
         position: absolute;
         left: 40px;
+        padding: auto;
     }
     .bars {
         display: block;
         margin-left: 55%;
-        position: fixed;
+        position: absolute;
     }
     .fa-bars {
         color: #fff;
