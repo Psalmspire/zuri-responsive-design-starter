@@ -409,14 +409,6 @@ div.footer h6 {
     .ul li a {
         display: block;
     }
-    /*
-    .nav-bar a.icon {
-        background: white;
-        display: none;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }*/
     div.hero-content-btn a:hover {
         background: #13c2a5;
         color: #ffffff;
