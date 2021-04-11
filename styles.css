@@ -23,6 +23,10 @@ div.nav-bar {
     z-index: 1;
 }
 
+.nav-bar a.icon {
+    display: none;
+}
+
 div.logo {
     font-size: 1.5rem;
     color: #bcc3c7;
@@ -47,9 +51,11 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #304353;
-    background: #fff;
+    color: #e9edf0;
+    /* background: #fff;*/
     padding: 0.5rem;
+    border: 2px solid #E44C65;
+    border-radius: 5px;
 }
 
 div.hero-section {
