@@ -17,7 +17,7 @@ div.nav-bar {
     width: inherit;
     background: #304353;
     position: sticky;
-    height: initial top: 0px;
+    top: 0px;
     left: 0;
     right: 0;
     z-index: 1;
